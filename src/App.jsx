@@ -254,8 +254,7 @@ function App() {
  <div className="container-fluid">
   <h1>Most Recent Articles</h1>
   <Recent data={sortedData}/>
-    </div>
- <BrowserRouter> 
+    </div> 
  <div className="card-container main-card  mt-3 pt-3 d-flex justify-content-space-evenly">
   <div className=" mx-3 row">
   <SideBar/>
@@ -293,7 +292,6 @@ function App() {
           </Routes>
         </div>
       </div>
-  </BrowserRouter>
  <Footer/>
     </>
  
